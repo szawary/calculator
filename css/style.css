@@ -1,0 +1,57 @@
+.content {
+    border: 5px solid rgb(12, 32, 59);
+    border-radius: 3px;
+    padding: 15px;
+    width: 250px;
+}
+
+.input {
+    display: block;
+    padding: 5px;
+    width: 100%
+}
+
+#calcDisplay {
+    width: 236px;
+}
+
+.operations {
+    display: block;
+    width: 250px;
+    padding: 5px;
+
+}
+
+.operations > div {
+    display: inline;
+    
+
+}
+
+.operation1, .operation2, .operation3, .operation4 {
+    margin-right: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 250px;
+    padding: 5px;
+
+}
+
+.numbers1row > div {
+    display: inline-block;
+}
+.numbers1row > div {
+    display: inline-block;
+}
+.numbers2row > div {
+    display: inline-block;
+}
+.numbers3row > div {
+    display: inline-block;
+}
+.numbers4row > div {
+    display: inline-block;
+}
