@@ -3,12 +3,16 @@
     border-radius: 3px;
     padding: 15px;
     width: 250px;
+
 }
 
 .input {
     display: block;
+    box-sizing: border-box;
     padding: 5px;
-    width: 100%
+    width: 100%;
+    
+    
 }
 
 #calcDisplay {
@@ -16,7 +20,9 @@
 }
 
 .operations {
-    display: block;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
     width: 250px;
     padding: 5px;
 
@@ -28,8 +34,8 @@
 
 }
 
-.operation1, .operation2, .operation3, .operation4 {
-    margin-right: 10px;
+.operation {
+    padding: 0px 20px;
 }
 
 .flex-container {
@@ -40,18 +46,28 @@
 
 }
 
-.numbers1row > div {
-    display: inline-block;
+.numbers {
+    width: 80%;
+  
 }
-.numbers1row > div {
-    display: inline-block;
+
+.number {
+    padding: 1px 10px 5px 5px;
+    flex-grow: 3;
 }
-.numbers2row > div {
-    display: inline-block;
+
+button {
+    font-size: 2rem;
+    
+    border: none;
+
 }
-.numbers3row > div {
-    display: inline-block;
+
+.equals {
+    width: 25%;
+    background-color: rgb(49, 109, 187);
 }
-.numbers4row > div {
-    display: inline-block;
+.equal {
+    background-color: rgb(49, 109, 187);
+    color: rgb(255, 255, 255);
 }
