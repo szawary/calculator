@@ -86,4 +86,5 @@ body {
     border-radius: 4px;
     color: rgb(218, 218, 218);
     flex-grow: 1;
+    margin: 2px 0px;
 }
